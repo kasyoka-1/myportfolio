@@ -3,15 +3,26 @@
     padding: 0;
 }
 body{
-    background-image: url("images/jij.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-image: url("/images/repBAC.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
 }
 .header img{
-    width: 150px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+    border-radius: 30%;
+    object-fit: cover;
+    object-position: 0 -8px;
+}
+.main{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    width: 30%;
+    height: 60vh;
 }
